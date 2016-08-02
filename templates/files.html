@@ -1,0 +1,22 @@
+<!doctype html>
+<title>Cloud Drive</title>
+
+<center>
+<h2>
+	Welcome to Cloud Drive
+</h2>
+
+<table>
+	<tr>
+		<td>File Name</td>
+	</tr>
+	
+	{% for i in range(0, fileList|count) %}
+	<tr>
+		<td> {{ fileList[i][0] }}</td>
+	</tr>
+	
+	{% endfor %}
+</table>
+</center>
+

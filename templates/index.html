@@ -1,0 +1,19 @@
+<!doctype html>
+<title>Cloud Drive</title>
+
+<center>
+<h2>
+	Welcome to Cloud Drive
+</h2>
+
+<h3>Login</h3>
+<form method="POST" action="authenticate" enctype="multipart/form-data">
+	<label>Username </label><input type="text" name="userName" value=""> <br> <br>
+	<label>Password </label><input type="text" name="password" value=""> <br> <br>
+	<input type="submit" value="Log in">	
+</form>
+
+<br>
+<a href="{{ url_for('signup') }}">Sign up</a>	
+</center>
+
