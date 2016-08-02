@@ -1,4 +1,4 @@
-#IBM Bluemix ClearDB based Storage as a Service.
+#IBM Bluemix ClearDB based Storage as a Service
 This application uses Python and Flask with IBM Bluemix ClearDB as backend.
 
 Features:
