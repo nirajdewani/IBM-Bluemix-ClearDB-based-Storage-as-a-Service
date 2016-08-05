@@ -9,5 +9,6 @@ Features:
 - User sign up and authentication
 
 References:
+
 For deploying app:
 https://console.ng.bluemix.net/docs/starters/install_cli.html
